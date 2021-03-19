@@ -1,0 +1,10 @@
+﻿  zmq_sub.cpp
+C:\Users\admin\Documents\WXWork\1688851058840666\Cache\File\2021-02\zmq_pro\zmq_pro\zmq_sub\zmq_sub.cpp(69,7): warning C4101: “test”: 未引用的局部变量
+C:\Users\admin\Documents\WXWork\1688851058840666\Cache\File\2021-02\zmq_pro\zmq_pro\include\zmq_addon.hpp(239,1): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+C:\Users\admin\Documents\WXWork\1688851058840666\Cache\File\2021-02\zmq_pro\zmq_pro\include\zmq_addon.hpp(628): message : 查看对正在编译的函数 模板 实例化“zmq::message_t zmq::encode<zmq::multipart_t,void>(const Range &)”的引用
+          with
+          [
+              Range=zmq::multipart_t
+          ]
+C:\Users\admin\Documents\WXWork\1688851058840666\Cache\File\2021-02\zmq_pro\zmq_pro\include\zmq_addon.hpp(239,1): warning C4267: “初始化”: 从“size_t”转换到“const uint32_t”，可能丢失数据
+  zmq_sub.vcxproj -> C:\Users\admin\Documents\WXWork\1688851058840666\Cache\File\2021-02\zmq_pro\zmq_pro\x64\Debug\zmq_sub.exe

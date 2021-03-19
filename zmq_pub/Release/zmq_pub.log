@@ -1,0 +1,9 @@
+﻿  zmq_pub.cpp
+C:\Users\admin\Documents\WXWork\1688851058840666\Cache\File\2021-02\zmq_pro\zmq_pro\zmq_pub\zmq_pub.cpp(75,20): warning C4244: “=”: 从“__int64”转换到“uint32_t”，可能丢失数据
+C:\Users\admin\Documents\WXWork\1688851058840666\Cache\File\2021-02\zmq_pro\zmq_pro\zmq_pub\zmq_pub.cpp(81,35): warning C4244: “参数”: 从“double”转换到“uint64_t”，可能丢失数据
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp__zmq_bind
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp__zmq_send
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp__zmq_setsockopt
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp__zmq_socket
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp__zmq_ctx_new
+C:\Users\admin\Documents\WXWork\1688851058840666\Cache\File\2021-02\zmq_pro\zmq_pro\Release\zmq_pub.exe : fatal error LNK1120: 5 个无法解析的外部命令

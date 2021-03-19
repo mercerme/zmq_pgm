@@ -1,0 +1,9 @@
+﻿  zmq_sub.cpp
+zmq_sub.obj : error LNK2001: 无法解析的外部符号 __imp__zmq_ctx_destroy
+zmq_sub.obj : error LNK2001: 无法解析的外部符号 __imp__zmq_setsockopt
+zmq_sub.obj : error LNK2001: 无法解析的外部符号 __imp__zmq_socket
+zmq_sub.obj : error LNK2001: 无法解析的外部符号 __imp__zmq_close
+zmq_sub.obj : error LNK2001: 无法解析的外部符号 __imp__zmq_connect
+zmq_sub.obj : error LNK2001: 无法解析的外部符号 __imp__zmq_recv
+zmq_sub.obj : error LNK2001: 无法解析的外部符号 __imp__zmq_ctx_new
+C:\Users\admin\Documents\WXWork\1688851058840666\Cache\File\2021-02\zmq_pro\zmq_pro\Release\zmq_sub.exe : fatal error LNK1120: 7 个无法解析的外部命令

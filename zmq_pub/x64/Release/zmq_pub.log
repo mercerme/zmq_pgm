@@ -1,0 +1,23 @@
+﻿  easylogging++.cc
+  zmq_pub.cpp
+C:\Users\admin\Documents\WXWork\1688851058840666\Cache\File\2021-02\zmq_pro\zmq_pro\include\zmq_addon.hpp(239,1): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+C:\Users\admin\Documents\WXWork\1688851058840666\Cache\File\2021-02\zmq_pro\zmq_pro\include\zmq_addon.hpp(628): message : 查看对正在编译的函数 模板 实例化“zmq::message_t zmq::encode<zmq::multipart_t,void>(const Range &)”的引用
+          with
+          [
+              Range=zmq::multipart_t
+          ]
+C:\Users\admin\Documents\WXWork\1688851058840666\Cache\File\2021-02\zmq_pro\zmq_pro\include\zmq_addon.hpp(239,1): warning C4267: “初始化”: 从“size_t”转换到“const uint32_t”，可能丢失数据
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp_zmq_bind
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp_zmq_ctx_destroy
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp_zmq_setsockopt
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp_zmq_socket
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp_zmq_strerror
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp_zmq_close
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp_zmq_ctx_set
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp_zmq_errno
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp_zmq_ctx_new
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp_zmq_msg_init_size
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp_zmq_msg_data
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp_zmq_msg_send
+zmq_pub.obj : error LNK2001: 无法解析的外部符号 __imp_zmq_msg_close
+C:\Users\admin\Documents\WXWork\1688851058840666\Cache\File\2021-02\zmq_pro\zmq_pro\x64\Release\zmq_pub.exe : fatal error LNK1120: 13 个无法解析的外部命令

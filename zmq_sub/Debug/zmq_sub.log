@@ -1,0 +1,24 @@
+﻿  zmq_sub.cpp
+E:\workspace\mycode\zmq_pro\zmq_sub\zmq_sub.cpp(80,21): warning C4018: “<”: 有符号/无符号不匹配
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_errno，函数 "public: __thiscall zmq::error_t::error_t(void)" (??0error_t@zmq@@QAE@XZ) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_strerror，函数 "public: virtual char const * __thiscall zmq::error_t::what(void)const " (?what@error_t@zmq@@UBEPBDXZ) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_ctx_new，函数 "public: __thiscall zmq::context_t::context_t(int,int)" (??0context_t@zmq@@QAE@HH@Z) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_ctx_set，函数 "public: __thiscall zmq::context_t::context_t(int,int)" (??0context_t@zmq@@QAE@HH@Z) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_ctx_destroy，函数 "public: void __thiscall zmq::context_t::close(void)" (?close@context_t@zmq@@QAEXXZ) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_msg_init，函数 "public: __thiscall zmq::message_t::message_t(class zmq::message_t &&)" (??0message_t@zmq@@QAE@$$QAV01@@Z) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_msg_init_size，函数 "public: __thiscall zmq::message_t::message_t(void const *,unsigned int)" (??0message_t@zmq@@QAE@PBXI@Z) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_msg_send，函数 "public: class zmq::detail::trivial_optional<unsigned int> __thiscall zmq::detail::socket_base::send(class zmq::message_t &,enum zmq::send_flags)" (?send@socket_base@detail@zmq@@QAE?AV?$trivial_optional@I@23@AAVmessage_t@3@W4send_flags@3@@Z) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_msg_recv，函数 "public: class zmq::detail::trivial_optional<unsigned int> __thiscall zmq::detail::socket_base::recv(class zmq::message_t &,enum zmq::recv_flags)" (?recv@socket_base@detail@zmq@@QAE?AV?$trivial_optional@I@23@AAVmessage_t@3@W4recv_flags@3@@Z) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_msg_close，函数 "public: __thiscall zmq::message_t::~message_t(void)" (??1message_t@zmq@@QAE@XZ) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_msg_data，函数 "public: void * __thiscall zmq::message_t::data(void)" (?data@message_t@zmq@@QAEPAXXZ) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_msg_size，函数 "public: unsigned int __thiscall zmq::message_t::size(void)const " (?size@message_t@zmq@@QBEIXZ) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_msg_more，函数 "public: bool __thiscall zmq::message_t::more(void)const " (?more@message_t@zmq@@QBE_NXZ) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_socket，函数 "public: __thiscall zmq::socket_t::socket_t(class zmq::context_t &,int)" (??0socket_t@zmq@@QAE@AAVcontext_t@1@H@Z) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_close，函数 "public: void __thiscall zmq::socket_t::close(void)" (?close@socket_t@zmq@@QAEXXZ) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_setsockopt，函数 "private: void __thiscall zmq::detail::socket_base::set_option(int,void const *,unsigned int)" (?set_option@socket_base@detail@zmq@@AAEXHPBXI@Z) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_getsockopt，函数 "private: void __thiscall zmq::detail::socket_base::get_option(int,void *,unsigned int *)const " (?get_option@socket_base@detail@zmq@@ABEXHPAXPAI@Z) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_bind，函数 "public: void __thiscall zmq::detail::socket_base::bind(char const *)" (?bind@socket_base@detail@zmq@@QAEXPBD@Z) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_connect，函数 "public: void __thiscall zmq::detail::socket_base::connect(char const *)" (?connect@socket_base@detail@zmq@@QAEXPBD@Z) 中引用了该符号
+zmq_sub.obj : error LNK2019: 无法解析的外部符号 __imp__zmq_send，函数 "public: class zmq::detail::trivial_optional<unsigned int> __thiscall zmq::detail::socket_base::send(class zmq::const_buffer,enum zmq::send_flags)" (?send@socket_base@detail@zmq@@QAE?AV?$trivial_optional@I@23@Vconst_buffer@3@W4send_flags@3@@Z) 中引用了该符号
+..\lib\libzmq-mt-gd-4_3_4.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\workspace\mycode\zmq_pro\Debug\zmq_sub.exe : fatal error LNK1120: 20 个无法解析的外部命令
